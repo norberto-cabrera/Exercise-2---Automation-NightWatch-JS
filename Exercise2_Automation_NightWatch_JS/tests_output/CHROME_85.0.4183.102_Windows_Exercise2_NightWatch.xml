@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Exercise2_NightWatch"
+    errors="0" failures="0" hostname="" id="" package="Exercise2_NightWatch" skipped="0"
+    tests="1" time="19.79" timestamp="">
+  
+    <testcase name="Microsoft.com" classname="Exercise2_NightWatch" time="19.79" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
