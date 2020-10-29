@@ -10,10 +10,9 @@ module.exports = {
         .click('#shellmenu_2')
 
         //3.-Click on Windows 10 Menu drop down.
-        .click('#c-shellmenu_52')
+        .click('#c-shellmenu_53')
 
         //4.-Verify menu element are present: “Get windows 10”, “Why upgrade”, “Features”. ("How to get windows 10", "Buy Windows 10 Home")
-        .assert.visible("#c-shellmenu_53")
         .assert.visible("#c-shellmenu_54")
         .assert.visible("#c-shellmenu_55")
         .assert.visible("#c-shellmenu_56")
@@ -23,9 +22,10 @@ module.exports = {
         .assert.visible("#c-shellmenu_60")
         .assert.visible("#c-shellmenu_61")
         .assert.visible("#c-shellmenu_62")
+        .assert.visible("#c-shellmenu_63")
 
         //5.-Click on Get windows 10. ("How to get windows 10")
-        .click("#c-shellmenu_53")
+        .click("#c-shellmenu_54")
 
         //6.-Verify the following text is displayed: What are you looking for today? (Want to get Windows 10?)
         .assert.containsText(".c-heading-2",'Want to get Windows 10?')
@@ -37,7 +37,7 @@ module.exports = {
         //8.-Search for Visual Studio Community.
         .setValue('#search','Visual Studio Community')
         .keys(browser.Keys.ENTER)
-        .click("#R1MarketRedirect-close")
+        
 
         //9.-Take a screenshot.
         .saveScreenshot('./reports/search-result.png')
